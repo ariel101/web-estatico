@@ -1,3 +1,3 @@
 function mostrarMensaje() {
-    alert("Sitio desplegado desde AWS");
+    alert("Sitio desplegado");
 }
