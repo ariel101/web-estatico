@@ -4,7 +4,7 @@ Sitio web estático desplegado automáticamente usando GitHub Actions.
 
 ## URL pública
 
-https://xxxxxxxx.cloudfront.net
+https://d2qsedqm62oozf.cloudfront.net/
 
 ## Documentación del Laboratorio
 

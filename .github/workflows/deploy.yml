@@ -29,7 +29,8 @@ jobs:
             --exclude ".git/*" \
             --exclude ".github/*" \
             --exclude "README.md" \
-            --exclude "INFORME.md"
+            --exclude "INFORME.md" \
+            --exclude "screenshots/*"
 
       - name: Invalidate CloudFront Cache
         run: |

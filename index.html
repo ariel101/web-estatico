@@ -1,21 +1,126 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <title>Mi Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundial FIFA 2026</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
-    <h1>Mi Proyecto AWS</h1>
+    <nav class="navbar">
+        <div class="logo">⚽ Mundial 2026</div>
 
-    <p>Despliegue continuo con GitHub Actions, S3 y CloudFront.</p>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sedes">Sedes</a></li>
+            <li><a href="#equipos">Favoritos</a></li>
+            <li><a href="#contador">Cuenta Regresiva</a></li>
+            <li><a href="#quiz">Trivia</a></li>
+        </ul>
+    </nav>
 
-    <button onclick="mostrarMensaje()">
-        Haz clic aquí
-    </button>
+    <header id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>FIFA WORLD CUP 2026</h1>
+            <p>Estados Unidos • México • Canadá</p>
+
+            <a href="#sedes" class="btn">Ver Sedes</a>
+        </div>
+    </header>
+
+    <section id="sedes">
+        <h2>Sedes Destacadas</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🏟️ New York</h3>
+                <p>MetLife Stadium</p>
+            </div>
+
+            <div class="card">
+                <h3>🏟️ Los Angeles</h3>
+                <p>SoFi Stadium</p>
+            </div>
+
+            <div class="card">
+                <h3>🏟️ Toronto</h3>
+                <p>BMO Field</p>
+            </div>
+
+            <div class="card">
+                <h3>🏟️ Ciudad de México</h3>
+                <p>Estadio Azteca</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="equipos">
+        <h2>Selecciones Favoritas</h2>
+
+        <div class="cards">
+
+            <div class="card">🇦🇷 Argentina</div>
+            <div class="card">🇧🇷 Brasil</div>
+            <div class="card">🇫🇷 Francia</div>
+            <div class="card">🇪🇸 España</div>
+            <div class="card">🇩🇪 Alemania</div>
+            <div class="card">🇵🇹 Portugal</div>
+
+        </div>
+    </section>
+
+    <section id="contador">
+        <h2>Cuenta Regresiva Mundial 2026</h2>
+
+        <div class="countdown">
+            <div>
+                <span id="days">0</span>
+                <p>Días</p>
+            </div>
+
+            <div>
+                <span id="hours">0</span>
+                <p>Horas</p>
+            </div>
+
+            <div>
+                <span id="minutes">0</span>
+                <p>Minutos</p>
+            </div>
+
+            <div>
+                <span id="seconds">0</span>
+                <p>Segundos</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz">
+        <h2>Trivia Mundialista</h2>
+
+        <p>¿Quién ganó el Mundial Qatar 2022?</p>
+
+        <div class="quiz-buttons">
+            <button onclick="checkAnswer('Brasil')">Brasil</button>
+            <button onclick="checkAnswer('Argentina')">Argentina</button>
+            <button onclick="checkAnswer('Francia')">Francia</button>
+            <button onclick="checkAnswer('España')">España</button>
+        </div>
+
+        <h3 id="result"></h3>
+    </section>
+
+    <footer>
+        <p>Proyecto AWS + GitHub Actions + S3 + CloudFront</p>
+    </footer>
 
     <script src="js/app.js"></script>
 
 </body>
+
 </html>

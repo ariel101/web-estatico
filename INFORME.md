@@ -1,8 +1,5 @@
 # INFORME DEL LABORATORIO
 
-## 1. Descripción del proyecto
-
-Descripción breve del sitio.
 
 ## 2. Arquitectura
 
@@ -10,27 +7,31 @@ GitHub → Actions → S3 → CloudFront
 
 ## 3. Configuración del bucket S3
 
-[Captura]
+![Bucket](./screenshots/bucket.png)
+![permisos](./screenshots/bucket-permisos.png)
+![permisos](./screenshots/alojamiento-sitios-estaticos.png)
 
 ## 4. Configuración de GitHub Secrets
 
-[Captura]
-
+![secrets](./screenshots/action-secrets.png)
+![variables](./screenshots/action-variables.png)
 ## 5. Pipeline CI/CD
 
 Explicación del workflow.
 
 ## 6. Evidencia de ejecución fallida
 
-[Captura]
+![fallido](./screenshots/fallido-credenciales.png)
 
 ## 7. Evidencia de ejecución exitosa
 
-[Captura]
+![permisos](./screenshots/despliegue-exitoso.png)
 
 ## 8. Distribución CloudFront
 
-[Captura]
+![cloudfront](./screenshots/cloudfront1.png)
+![cloudfront](./screenshots/cloudfront2.png)
+![cloudfront](./screenshots/cloudfront3.png)
 
 ## 9. Sitio desplegado
 
