@@ -35,13 +35,12 @@ Explicación del workflow.
 
 ## 9. Sitio desplegado
 
-URL S3:
-...
+![archivos](./screenshots/archivos.png)
 
 URL CloudFront:
-...
+[url](https://d2qsedqm62oozf.cloudfront.net/)
 
-[Captura]
+![web estatico](./screenshots/sitio-desplegado.png)
 
 ## 10. Conclusiones
 
